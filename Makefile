@@ -11,7 +11,7 @@ SRCS=\
 	glossary.tex \
 	thesis.tex
 
-LATEX_FLAGS=-shell-escape
+LATEX_FLAGS=-shell-escape -synctex=1
 BIBER_FLAGS=
 
 mkdir = @mkdir -p $(@D)

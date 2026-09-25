@@ -1,0 +1,23 @@
+{
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab",
+
+  "latex-workshop.latex.tools": [
+    {
+      "name": "make",
+      "command": "make",
+      "args": []
+    }
+  ],
+
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "make thesis",
+      "tools": [
+        "make"
+      ]
+    }
+  ],
+
+  "latex-workshop.latex.recipe.default": "first"
+}
